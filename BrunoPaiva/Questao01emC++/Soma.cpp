@@ -21,5 +21,6 @@ for(i = 0; i <= n; i++){
 }
     media = somar/n;
     cout << media << endl;
+    cout << somar << endl;
     return 0;
 }
