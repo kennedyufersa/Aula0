@@ -20,6 +20,6 @@ for(i = 0; i <= n; i++){
     somar += vet[i];
 }
     media = somar/n;
-    cout << vet[i] << endl;
+    cout << media << endl;
     return 0;
 }
