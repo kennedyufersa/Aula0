@@ -8,12 +8,12 @@
 
 int main(){
     setlocale(LC_ALL, "portuguese");
-    float c, f;
-
-    for(c = 30; c <= 50; c++){
+    int c = 30, f;
+    printf("Celcius\t Fahrenheit\n");
+    while(c <= 50){
         f =  c + 32;
-        printf("%.1f\t %.1f\n", c, f);
-        c = c + 1;
+        printf("%.d °C\t %d °F\n", c, f);
+        c += 1;
     }
     return 0;
 }
