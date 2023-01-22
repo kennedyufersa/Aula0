@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<locale.h>
+int main(){
+    setlocale(LC_ALL, "portuguese");
+	int n, soma = 0, media = 0;
+	int cont;
+
+	
+	printf("Especifique o número de inteiros a serem lidos : \n");
+	scanf("%d", &n);
+    printf("Digite os valores : \n");
+    
+ 	int vet[n];
+ 	
+for(cont=0;cont<n;cont++){
+    scanf("%d", &vet[cont]);	
+    soma = soma + vet[cont];
+}
+
+ media = soma/n;
+ 
+ printf("A soma é : %d \n", soma);
+ printf("A média é : %d", media);
+
+    return 0;
+}
