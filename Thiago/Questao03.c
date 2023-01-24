@@ -2,6 +2,7 @@
 #include <locale.h>
 
 int main(){
+    setlocale(LC_ALL, "portuguese");
     int i, soma = 0;
     
     for(i = 7; i <= 100; i++){
@@ -10,6 +11,6 @@ int main(){
             soma = soma + i;
         }
     }
-    printf("\nA soma dos multiplos de 7 e %d", soma);
+    printf("\nA soma dos multiplos de 7 é %d", soma);
     return 0;
 }
