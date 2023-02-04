@@ -15,7 +15,7 @@ void senquenciainteira(){
     for(cont=0;cont<numero;cont++){
         printf("informe o valor");
         scanf("%d",&valor[cont]);
-        soma = valor + soma;
+        soma = soma + valor;
     }
     
     printf("A somas dos valores e: %d\n", soma += valor[cont]);
